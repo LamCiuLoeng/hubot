@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - "7.3"
+    - "6.9"
+services:
+    - mysql
+    - mongodb
+    - redis-server
+notifications:
+    webhooks: https://hook.bearychat.com/=bw54r/travis/fc4dec423aaabe5fd59774e0737b6c07
+    email: false
+
