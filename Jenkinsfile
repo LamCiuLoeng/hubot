@@ -8,7 +8,6 @@ pipeline {
     }
     stage('build') {
       steps {
-        build 'hubot'
         echo 'build hubot'
       }
     }
