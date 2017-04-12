@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('pull git') {
       steps {
-        git(url: 'https://github.com/LamCiuLoeng/hubot.git', branch: 'master')
         echo 'pull repo'
       }
     }
