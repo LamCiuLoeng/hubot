@@ -1,14 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('pull git') {
-      steps {
-        echo 'pull repo'
-      }
-    }
     stage('build') {
       steps {
         echo 'build hubot'
+        sh 'echo helloworld'
       }
     }
     stage('done') {
